@@ -1,35 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <header className="text-center">
+        <h1 className="text-4xl font-bold text-blue-600">Mi Portafolio</h1>
+        <p className="mt-4 text-lg text-gray-700">Bienvenido a mi portafolio. Aquí puedes ver mis proyectos y habilidades.</p>
+      </header>
+      <main className="mt-8">
+        <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg border-2 border-blue-500">
+          <h2 className="text-2xl font-semibold text-gray-800">Sobre Mí</h2>
+          <p className="mt-4 text-gray-600">
+            Soy un desarrollador apasionado por la ciencia de datos y el desarrollo web. Me especializo en React, Tailwind CSS, y muchas otras tecnologías modernas.
+          </p>
+        </div>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
