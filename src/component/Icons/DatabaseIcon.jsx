@@ -21,3 +21,4 @@ function DatabaseIcon(props) {
     )
 }
 
+export default DatabaseIcon

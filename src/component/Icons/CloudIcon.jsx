@@ -17,3 +17,4 @@ function CloudIcon(props) {
     )
 }
 
+export default CloudIcon;

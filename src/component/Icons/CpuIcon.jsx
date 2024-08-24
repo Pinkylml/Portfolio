@@ -26,3 +26,5 @@ function CpuIcon(props) {
         </svg>
     )
 }
+
+export default CpuIcon

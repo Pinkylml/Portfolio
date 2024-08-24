@@ -18,3 +18,4 @@ function MountainIcon(props) {
     )
 }
 
+export default MountainIcon;

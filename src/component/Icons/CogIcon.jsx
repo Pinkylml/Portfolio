@@ -31,3 +31,4 @@ function CogIcon(props) {
     )
 }
 
+export default CogIcon;

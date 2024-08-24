@@ -19,3 +19,4 @@ function CodeIcon(props) {
     )
 }
 
+export default CodeIcon;

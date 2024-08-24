@@ -19,3 +19,4 @@ function CameraIcon(props) {
 }
 
 
+export default CameraIcon;
